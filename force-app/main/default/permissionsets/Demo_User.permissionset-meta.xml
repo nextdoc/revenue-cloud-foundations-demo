@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Extra access needed by demo users beyond the standard profile (e.g. Opportunity Product discount FLS).</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>OpportunityLineItem.Discount</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Demo User</label>
+</PermissionSet>
